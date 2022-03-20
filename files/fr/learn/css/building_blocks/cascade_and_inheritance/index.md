@@ -168,7 +168,7 @@ Comme nous l'avons vu plus haut dans cette leçon, un sélecteur de classe a plu
 
 Un point important à noter : dans la cascade, on pourrait penser qu'une règle postérieure écrase une règle antérieure. En fait, ce n'est pas la règle toute entière qui est écrasée, mais seulement les propriétés communes aux deux règles qui sont redéfinies par la dernière version rencontrée.
 
-Ce comportement permet d'éviter la répétition dans votre CSS. Une pratique courante consiste à définir des styles génériques pour les éléments de base, puis à créer des classes pour les cas particuiers. Par exemple, dans la feuille de style ci-dessous, nous avons défini des styles génériques pour les titres de niveau 2, puis créé des classes qui ne modifient que certaines des propriétés et valeurs. Les valeurs définies initialement sont appliquées à tous les titres, puis les valeurs plus spécifiques sont appliquées seulement aux titres avec l'attribut classe.
+Ce comportement permet d'éviter la répétition dans votre CSS. Une pratique courante consiste à définir des styles génériques pour les éléments de base, puis à créer des classes pour les cas particuliers. Par exemple, dans la feuille de style ci-dessous, nous avons défini des styles génériques pour les titres de niveau 2, puis créé des classes qui ne modifient que certaines des propriétés et valeurs. Les valeurs définies initialement sont appliquées à tous les titres, puis les valeurs plus spécifiques sont appliquées seulement aux titres avec l'attribut classe.
 
 {{EmbedGHLiveSample("css-examples/learn/cascade/mixing-rules.html", '100%', 700)}}
 
